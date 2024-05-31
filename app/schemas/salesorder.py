@@ -24,7 +24,7 @@ class SalesOrder(SalesOrder4CU):
     id: int
 
     class Config:
-        orm_mode = True
+        from_attributes = True
 
 # To support list salesorder API
 class PaginatedSalesOrderInfo(BaseModel):

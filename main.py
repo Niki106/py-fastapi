@@ -18,3 +18,8 @@ app.include_router(salesorder.router)
 @app.get('/')
 async def root_api():
     return {"message": "Welcome to Balasundar's Technical Blog"}
+
+if __name__ == "__main__":
+    import uvicorn
+
+    uvicorn.run(app, host="localhost", port=8000)

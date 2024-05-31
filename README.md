@@ -9,5 +9,5 @@ FastAPI-backed API end points are implemented with MySQL database.
 
 - Create a test database and import the sales table schema(salesorder.sql)
 - Create a Python virtual environment and install dependencies
-- Run the main script (uvicorn main:app)
+- Run the main script
 - Import Postman collection (postman_collection.json). There are end points
