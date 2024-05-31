@@ -5,10 +5,15 @@
 Backend API for the sales management system.
 FastAPI-backed API end points are implemented with MySQL database.
 
+
 ## How to run
 
 - Create a test database and import the sales table schema(salesorder.sql)
 - Create a Python virtual environment and install dependencies
+  ```
+  source venv/bin/activate
+  pip install -r requirements.txt
+  ```
 - Run the main script
   ```
   python main.py
